@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+div {
+    border: 1px solid back;
+}
+
+.text{
+    border: 1px solid black;
+    width: 500px;
+    height: 90px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 0px 0px 41px -7px #000000; 
+box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 0px 0px 41px -7px #000000;
+}
+
+button{
+    margin: 20px;
+    background-color: rgb(255, 121, 10);
+    color: white;
+    width: 154px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+select{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+img{
+    margin: 20px;
+    width: 400px;
+   
+    
+}
+
+img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 2s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg);}
+}
+
